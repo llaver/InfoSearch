@@ -79,4 +79,3 @@ with open('C:\\PATH\\TO\\INPUT.csv', mode='r', encoding='IBM437') as csvfile:
 					'Date': date})
 		count += 1
 outputCsv.close()
-
