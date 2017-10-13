@@ -24,7 +24,7 @@ with open('C:\\PATH\\TO\\INPUT.csv', mode='r', encoding='IBM437') as csvfile:
 	acquiReader = csv.reader(csvfile)
 	opener = urllib.request.build_opener()
 	acquiWriter = csv.DictWriter(outputCsv, delimiter=',', lineterminator='\n', fieldnames=fieldnames)
-
+	
 	for row in acquiReader:
 		buyerName = row[0]
 		buyerCountry = row[1]
